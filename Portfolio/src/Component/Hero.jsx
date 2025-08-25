@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import profileImg from "../assets/Ani.jpg";
 import ResumeButton from "./Resume_Button";
 
+
+
 function Hero() {
   const logos = [
     {
@@ -16,7 +18,7 @@ function Hero() {
     },
     {
       icon: <FaEnvelope className="text-3xl text-blue-500" />,
-      link: "https://in.linkedin.com/in/aniruddh-kumar-shaw-537570351",
+      link: "mailto:Aniiiii0007@gmail.com",
     }
   ];
 
@@ -57,13 +59,14 @@ function Hero() {
         {/* CTA Buttons */}
         <div className="mt-8 flex gap-6">
           <a
-            href="#projects"
+            href="/project"
             className="px-6 py-3 bg-cyan-500 text-white font-semibold rounded-lg shadow-lg hover:bg-cyan-600 transition"
           >
             View Projects
           </a>
+           
           <a
-            href="#contact"
+            href="/contact"
             className="px-6 py-3 border border-cyan-400 text-cyan-400 font-semibold rounded-lg hover:bg-cyan-500 hover:text-white transition"
           >
             Contact Me

@@ -50,7 +50,7 @@ export default function Header() {
                                 Home
                             </NavLink>
                         </li>
-                        {/* Add more nav items below as needed */}
+                       
                         <li>
                             <NavLink
                                 to="/about"

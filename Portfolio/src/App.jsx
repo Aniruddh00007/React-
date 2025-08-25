@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import {Skills , Project , Hero, About_Me ,ResumeButton} from './Component/index'
+
 import './App.css'
 
 function App() {
@@ -8,11 +8,7 @@ function App() {
 
   return (
     <>
-    <Hero/>
-      <About_Me/>
-       <Skills/>
-       <Project/>
-       <ResumeButton/>
+   
       
      
     </>

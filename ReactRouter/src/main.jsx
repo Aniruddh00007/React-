@@ -8,7 +8,7 @@ import { createBrowserRouter, Route, RouterProvider } from 'react-router-dom'
 
 import About from './components/Aboutt/About.jsx'
 import Home from './components/home/Home.jsx'
-import Layout from './layout.jsx'
+import Layout from './Layout.jsx'
 import Contact from './components/Contact/contact.jsx'
 import User from './components/User/User.jsx'
 import GitHub from './components/GitHub/GitHub.jsx'

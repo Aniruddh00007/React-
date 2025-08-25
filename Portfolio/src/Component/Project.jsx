@@ -35,7 +35,7 @@ function Projects() {
   ];
 
   return (
-    <section id="Projects" className="py-16 bg-gradient-to-b from-cyan-950 to-gray-900 rounded-xl">
+    <section id="Projects" className="py-16 bg-gradient-to-b from-cyan-950 to-gray-900 ">
       <div className="max-w-6xl mx-auto px-6">
         
         {/* Heading */}
